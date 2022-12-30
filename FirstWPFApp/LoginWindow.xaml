@@ -1,0 +1,28 @@
+﻿<Window x:Class="FirstWPFApp.LoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FirstWPFApp"
+        mc:Ignorable="d"
+        Title="LoginWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="Username" FontSize="24" Margin="186,64,458.6,298"/>
+        <TextBox x:Name="_Username" FontSize="24"
+                 
+            HorizontalAlignment="Left" Height="41" Margin="399,64,0,0" 
+                 TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="152"/>
+
+
+
+        <Label Content="Password" FontSize="24" Margin="186,147,458.6,215"/>
+        <TextBox x:Name="_Password" FontSize="24" 
+                 
+            HorizontalAlignment="Left" Height="41" 
+                 Margin="387,151,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="152"/>
+        <Button  Background="blue" Foreground="White" FontWeight="Bold" Content="Login"
+            HorizontalAlignment="Left" Click="Button_Click" FontSize="24"
+                 Margin="217,246,0,0" VerticalAlignment="Top" Width="118" Height="35" 
+                 />
+    </Grid>
+</Window>
